@@ -1,0 +1,25 @@
+{
+  "name": "authapi",
+  "version": "1.0.0",
+  "description": "simple authentication api",
+  "main": "authServer.js",
+  "scripts": {
+    "serve": "nodemon authServer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://localhost:3000/galia/AuthApi.git"
+  },
+  "author": "Galia",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
